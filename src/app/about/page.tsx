@@ -90,7 +90,7 @@ export default function AboutPage() {
               >
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                   <img
-                    src="/placeholder-p9tlu.png"
+                    src="/doctor.jpg"
                     alt="Dr. Wellness"
                     className="w-full h-[600px] object-cover"
                   />

@@ -170,7 +170,7 @@ export default function HomePage() {
               >
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                   <img
-                    src="/professional-female-doctor-in-white-coat-smiling-w.jpg"
+                    src="/hompage.jpg"
                     alt="Dr. Wellness - Professional Medical Consultation"
                     className="w-full h-auto object-cover"
                   />

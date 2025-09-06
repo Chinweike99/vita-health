@@ -290,7 +290,7 @@ export default function ProgramsPage() {
                     } bg-gradient-to-br from-background to-primary/5 hover:border-primary/20 transition-all duration-300`}
                   >
                     {program.featured && (
-                      <div className="absolute top-4 right-4">
+                      <div className="absolute top-2 right-4">
                         <Badge className={`bg-gradient-to-r ${program.gradient} text-white border-0`}>
                           Most Popular
                         </Badge>

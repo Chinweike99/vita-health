@@ -42,7 +42,7 @@ const blogPosts = [
     author: "Dr. Wellness",
     date: "2024-01-15",
     readTime: "8 min read",
-    image: "/placeholder-j16qv.png",
+    image: "/nutrition.jpg",
     featured: true,
     tags: ["Weight Loss", "Metabolism", "Longevity"],
   },
@@ -55,7 +55,7 @@ const blogPosts = [
     author: "Dr. Wellness",
     date: "2024-01-12",
     readTime: "6 min read",
-    image: "/placeholder-4nyzf.png",
+    image: "/medicine.jpg",
     featured: true,
     tags: ["Stress Relief", "Mindfulness", "Mental Health"],
   },
@@ -68,7 +68,7 @@ const blogPosts = [
     author: "Dr. Wellness",
     date: "2024-01-10",
     readTime: "10 min read",
-    image: "/placeholder-4m8ru.png",
+    image: "/nutrition.jpg",
     featured: false,
     tags: ["Digestive Health", "Probiotics", "Nutrition"],
   },
@@ -81,7 +81,7 @@ const blogPosts = [
     author: "Dr. Wellness",
     date: "2024-01-08",
     readTime: "12 min read",
-    image: "/placeholder-wvuqj.png",
+    image: "/nutrition.jpg",
     featured: false,
     tags: ["Hormones", "Women's Health", "Natural Medicine"],
   },
@@ -94,7 +94,7 @@ const blogPosts = [
     author: "Dr. Wellness",
     date: "2024-01-05",
     readTime: "9 min read",
-    image: "/placeholder-zkx2f.png",
+    image: "/medicine.jpg",
     featured: false,
     tags: ["Sleep Health", "Recovery", "Wellness"],
   },
@@ -107,7 +107,7 @@ const blogPosts = [
     author: "Dr. Wellness",
     date: "2024-01-03",
     readTime: "7 min read",
-    image: "/placeholder-22n1h.png",
+    image: "/nutrition.jpg",
     featured: false,
     tags: ["Anti-Inflammatory", "Nutrition", "Healing Foods"],
   },
@@ -120,7 +120,7 @@ const blogPosts = [
     author: "Dr. Wellness",
     date: "2024-01-01",
     readTime: "5 min read",
-    image: "/placeholder-h9u5o.png",
+    image: "/medicine.jpg",
     featured: false,
     tags: ["Mindfulness", "Mental Wellness", "Daily Habits"],
   },
@@ -133,7 +133,7 @@ const blogPosts = [
     author: "Dr. Wellness",
     date: "2023-12-28",
     readTime: "11 min read",
-    image: "/placeholder-3ikwy.png",
+    image: "/medicine.jpg",
     featured: false,
     tags: ["Detox", "Natural Health", "Evidence-Based"],
   },
@@ -289,13 +289,14 @@ export default function BlogPage() {
                     transition={{ duration: 0.6, delay: index * 0.1 }}
                     viewport={{ once: true }}
                     whileHover={{ scale: 1.02 }}
+                
                   >
-                    <Card className="h-full overflow-hidden bg-gradient-to-br from-background to-primary/5 border-primary/10 hover:border-primary/20 transition-all duration-300 hover:shadow-lg">
-                      <div className="relative">
+                    <Card className="h-full py-0  overflow-hidden bg-gradient-to-br from-background to-primary/5 border-primary/10 hover:border-primary/20 transition-all duration-300 hover:shadow-lg">
+                      <div className="relative ">
                         <img
                           src={post.image || "/placeholder.svg"}
                           alt={post.title}
-                          className="w-full h-48 object-cover"
+                          className="w-full max-h-[200px] object-cover"
                         />
                         <div className="absolute top-4 left-4">
                           <Badge className="bg-gradient-to-r from-primary to-accent text-white border-0">
@@ -383,7 +384,7 @@ export default function BlogPage() {
                   viewport={{ once: true }}
                   whileHover={{ scale: 1.02 }}
                 >
-                  <Card className="h-full overflow-hidden bg-gradient-to-br from-background to-primary/5 border-primary/10 hover:border-primary/20 transition-all duration-300 hover:shadow-lg">
+                  <Card className="h-full pt-0 overflow-hidden bg-gradient-to-br from-background to-primary/5 border-primary/10 hover:border-primary/20 transition-all duration-300 hover:shadow-lg">
                     <div className="relative">
                       <img
                         src={post.image || "/placeholder.svg"}
