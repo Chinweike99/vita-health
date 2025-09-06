@@ -23,6 +23,7 @@ import {
   Utensils,
 } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 
 const categories = [
   { value: "all", label: "All Articles", icon: BookOpen },
@@ -293,7 +294,7 @@ export default function BlogPage() {
                   >
                     <Card className="h-full py-0  overflow-hidden bg-gradient-to-br from-background to-primary/5 border-primary/10 hover:border-primary/20 transition-all duration-300 hover:shadow-lg">
                       <div className="relative ">
-                        <img
+                        <Image
                           src={post.image || "/placeholder.svg"}
                           alt={post.title}
                           className="w-full max-h-[200px] object-cover"
@@ -386,7 +387,7 @@ export default function BlogPage() {
                 >
                   <Card className="h-full pt-0 overflow-hidden bg-gradient-to-br from-background to-primary/5 border-primary/10 hover:border-primary/20 transition-all duration-300 hover:shadow-lg">
                     <div className="relative">
-                      <img
+                      <Image
                         src={post.image || "/placeholder.svg"}
                         alt={post.title}
                         className="w-full h-40 object-cover"

@@ -20,6 +20,7 @@ import {
   CheckCircle,
   Star,
 } from "lucide-react"
+import Image from "next/image"
 
 const services = [
   {
@@ -169,7 +170,7 @@ export default function HomePage() {
                 className="relative"
               >
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                  <img
+                  <Image
                     src="/hompage.jpg"
                     alt="Dr. Wellness - Professional Medical Consultation"
                     className="w-full h-auto object-cover"
@@ -305,7 +306,7 @@ export default function HomePage() {
                           <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                         ))}
                       </div>
-                      <p className="text-muted-foreground mb-4 leading-relaxed">"{testimonial.content}"</p>
+                      <p className="text-muted-foreground mb-4 leading-relaxed">&apos;{testimonial.content}&apos;</p>
                       <div>
                         <p className="font-semibold text-foreground">{testimonial.name}</p>
                         <p className="text-sm text-muted-foreground">{testimonial.role}</p>

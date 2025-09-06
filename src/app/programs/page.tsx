@@ -330,7 +330,7 @@ export default function ProgramsPage() {
                       <div>
                         <h4 className="font-semibold mb-3 flex items-center">
                           <CheckCircle className="h-4 w-4 mr-2 text-green-500" />
-                          What's Included:
+                          What&apos;s Included:
                         </h4>
                         <div className="grid gap-2">
                           {program.includes.slice(0, 4).map((item, itemIndex) => (

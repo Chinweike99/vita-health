@@ -198,7 +198,7 @@ export default function ServicesPage() {
         </section>
 
         {/* Service Categories */}
-        {serviceCategories.map((category, categoryIndex) => (
+        {serviceCategories.map((category) => (
           <section key={category.title} className="py-16 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
               <motion.div
@@ -332,8 +332,8 @@ export default function ServicesPage() {
                 Ready to Start Your Health Journey?
               </h2>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Take the first step towards optimal health with a personalized consultation. Let's work together to
-                create a health plan that's uniquely yours.
+                Take the first step towards optimal health with a personalized consultation. Let&apos;s work together to
+                create a health plan that&apos;s uniquely yours.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Button

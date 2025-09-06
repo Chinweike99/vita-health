@@ -230,7 +230,7 @@ export default function PrivacyPolicyPage() {
                 Questions About Your Privacy?
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                If you have any questions about this privacy policy or how we handle your information, please don't
+                If you have any questions about this privacy policy or how we handle your information, please don&apos;t
                 hesitate to contact us.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

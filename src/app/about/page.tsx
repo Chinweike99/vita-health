@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Award, BookOpen, Users, Star } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 
 const achievements = [
   {
@@ -59,7 +60,7 @@ export default function AboutPage() {
                   About Dr. Wellness
                 </h1>
                 <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                  With over 15 years of experience in integrative medicine, I'm passionate about helping individuals
+                  With over 15 years of experience in integrative medicine, I&apos;m passionate about helping individuals
                   achieve optimal health through personalized, holistic care that addresses the root causes of illness
                   while promoting overall wellness.
                 </p>
@@ -89,7 +90,7 @@ export default function AboutPage() {
                 className="relative"
               >
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                  <img
+                  <Image
                     src="/doctor.jpg"
                     alt="Dr. Wellness"
                     className="w-full h-[600px] object-cover"

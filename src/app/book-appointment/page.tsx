@@ -78,7 +78,7 @@ export default function BookAppointmentPage() {
                 Appointment Request Submitted!
               </h1>
               <p className="text-lg text-muted-foreground mb-8">
-                Thank you for your appointment request. We'll contact you within 24 hours to confirm your appointment
+                Thank you for your appointment request. We&apos;ll contact you within 24 hours to confirm your appointment
                 details.
               </p>
               <Button
@@ -317,6 +317,7 @@ export default function BookAppointmentPage() {
                       <Textarea
                         id="message"
                         value={formData.message}
+                        // eslint-disable-next-line @typescript-eslint/no-explicit-any
                         onChange={(e: any) => handleInputChange("message", e.target.value)}
                         className="mt-1"
                         rows={4}

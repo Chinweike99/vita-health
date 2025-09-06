@@ -135,7 +135,7 @@ export default function ContactPage() {
                 Message Sent Successfully!
               </h1>
               <p className="text-lg text-muted-foreground mb-8">
-                Thank you for contacting us. We'll get back to you within 24 hours during business days.
+                Thank you for contacting us. We&apos;ll get back to you within 24 hours during business days.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Button
@@ -175,7 +175,7 @@ export default function ContactPage() {
                 Get in Touch
               </h1>
               <p className="text-lg text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-                Ready to start your wellness journey? We're here to help. Reach out to schedule your consultation, ask
+                Ready to start your wellness journey? We&apos;re here to help. Reach out to schedule your consultation, ask
                 questions, or learn more about our personalized healthcare services.
               </p>
             </motion.div>
