@@ -1,6 +1,6 @@
 # WellnessMD - Personal Doctor & Wellness Platform
 
-A professional,  frontend for a personal doctor and wellness platform built with **React**, **TypeScript**, and modern web technologies.
+A professional,  frontend for a personal doctor and wellness platform built with **NextJs**, **TypeScript**, and modern web technologies.
 
 
 ## 🌟 Features
@@ -21,11 +21,10 @@ A professional,  frontend for a personal doctor and wellness platform built with
 
 ## 🛠 Tech Stack
 - **Frontend Framework**: React 18.2.0 with TypeScript  
-- **Build Tool**: Vite 4.4.0  
+- **Build Tool**: Next  
 - **Styling**: Tailwind CSS 3.3.0  
-- **Animations**: Framer Motion 10.16.0  
+- **Animations**: Framer Motion 12.23.12
 - **Icons**: Lucide React 0.263.1  
-- **Routing**: React Router DOM 6.15.0  
 - **UI Components**: Custom design with shadcn inspiration  
 
 ## 📦 Installation
