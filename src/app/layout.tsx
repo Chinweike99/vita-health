@@ -1,20 +1,14 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Playfair_Display, Source_Sans_3 } from "next/font/google"
-import { GeistMono } from "geist/font/mono"
+import { Plus_Jakarta_Sans } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import "./globals.css"
 
-const playfairDisplay = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair-display",
-  display: "swap",
-})
 
-const sourceSansPro = Source_Sans_3({
+const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  variable: "--font-source-sans-pro",
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 })
 
@@ -32,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans ${sourceSansPro.variable} ${playfairDisplay.variable} ${GeistMono.variable}`}>
+      <body className={`${plusJakartaSans.className} font-sans antialiased`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
       </body>
